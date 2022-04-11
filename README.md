@@ -1,101 +1,80 @@
-# Purple React Free Admin Template
+![Preview](https://raw.githubusercontent.com/DAGINATSUKO/www-rpcs3/master/public_docs/preview.png)
 
-Purple Admin React Free comes packed with a essential components, UI elements, and built-in sample pages to kick-start your project.
+## Introduction
 
-We are excited to share this dashboard with you and look forward to hearing your feedback!
+Official source code for [RPCS3.net](https://rpcs3.net). This website is designed to house and promote the progress of RPCS3, an open-source Sony PlayStation 3 emulator and debugger written in C++ for Windows, Linux and BSD. The compatibility list portion of this website is developed independently and maintained by [AniLeo](https://github.com/AniLeo).
 
-## Demo
+All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
 
-Visit: https://www.bootstrapdash.com/demo/purple-react-free/template/demo_1/preview/dashboard
+## Licensing
+This website uses the GNU General Public License Version 2.0 (June 1991). According to the license, you are welcome to use the website and its source code for any purpose, but distributing the websites' files requires that the source code be released and attribution given. For more details on how the GNU General Public License system works, please refer to [GNU.org](https://GNU.org)
 
-[![N|Solid](screenshot.png)](https://www.bootstrapdash.com/demo/purple-react-free/template/demo_1/preview/dashboard)
+## Deployment
+This website ships as is and doesn't require any compilation using any Integrated Development Environment tools. Simply download the repository archive, unpack and mount them locally or upload straight to your personal web server. For editing, we recommend using an advanced multi-language text editor, e.g. [Notepad++](https://notepad-plus-plus.org/).
 
+For local deployment, our only requirement is [Docker](http://docker.com/getdocker). Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud. To run the application, use:
 
-## Credits:
-
-.React-bootstrap 
-
-.Material Design Icons
-
-.React
-
-.Chart.js
-
-
-## Browser Support: 
-
-Chrome (latest)
-
-FireFox (latest)
-
-Safari (latest)
-
-Opera (latest)
-
-IE10+
-
-## License Information:
-
-Purple Admin React free is released under MIT license. Feel free to download it, use it, share it, and get creative with it.
-
-
-## Installation
-
-### What's included
-
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
-
-```
-purple-react-free/
-  ├── template
-    ├── demo_1
-        ├── src/
-            ├── app/
-            ├── assets/
-                ├── images/
-                ├── styles/
-            ├── index.js
-        ├── public/
-        ├── .gitignore
-        ├── CHANGELOG.md
-        ├── package.json
-  ├── CHANGELOG.md
-  ├── documentation
-  ├── LICENSE
-  ├── README.md
-
-
+```shell
+docker-compose up
 ```
 
-### How to use Purple Admin React?
+From there, open a web browser of your choosing and navigate to your preferred [localhost](http://localhost:8080) address.
+However, you will need to access it from your browser by adding the `:8080` to your localhost address.
 
-``` bash
-# Click the Clone or Download button in GitHub and download as a ZIP file or you can enter the command
-$ git clone https://github.com/BootstrapDash/purple-react-free.git in your terminal to get a copy of this template.
-
-# After the files have been downloaded you will get a folder with all the required files
-
-# You can install all the dependencies in the template by running the command 'npm install'. All the required files are in the node modules.
-
-# You can serve the template with the command 'npm start'.
-
-# Now that your project has now kick-started, all you need to do now is to code, code, and code to your heart's content.
-```
+This website uses a cron job to fetch the Roadmap. Your cron job should be similar to `php public_html/lib/cronjob/cron.roadmap.php` (using the appropriate paths to the php executable and the public_html directory) with a recommended timing of once every hour (`0 * * * *`).
 
 
-### How to Contribute?:
+#### External Resources
+* [Flaticon](http://www.flaticon.com)
+* [Freepik](http://www.freepik.com)
+* [JS Cookie](https://github.com/js-cookie/js-cookie)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Particles.js](https://github.com/VincentGarreau/particles.js/)
 
-``` bash
-# We love your contributions and we welcome them wholeheartedly. We believe the more the merrier. To contribute make sure you have a Node.js and npm installed.
-```
-## Next
-After node and npm have been installed, follow the steps below to contribute.
+#### Target Platforms
+* [Google Chrome](https://www.google.com/chrome/browser/desktop/)
+* [Google Chromium](https://www.chromium.org/Home)
+* [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge)
+* [Apple Safari](https://www.apple.com/safari/)
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Opera Software Opera](http://www.opera.com/)
 
-``` bash
-1 - Fork and clone the repo of Purple React Admin.
-2 - Run the command 'npm install' to install all the dependencies.
-3 - Enter the command 'npm start'. This will open Purple React Admin in your default browser.
-4 - Make your valuable contribution
-5 - Submit a pull request.
-...
-Do you need a template with more features and functionalities? Get more with our collection of the premium template with more plugins, eye catching animations, UI components, and sample pages all fitting together with a high-quality design. Visit https://www.bootstrapdash.com for more admin templates.
+## Flaticon Licensing
+This website uses free icon sets found on Flaticon.com provided by Freepik.com. The Flaticon and Freepik licensing allows us to use for free, any of Flaticon contents for our projects as long as we attribute to the author in the definitive project.
+
+#### How to attribute contents?
+* For web usage, by placing a link with the text "designed by {Author's Name} from Flaticon" in a visible spot, so the author's authorship is noticeable.
+* Uses different to web: If possible, the text "designed by {Author's Name} from Flaticon" must be written next to Flaticon Contents, if it's not possible, the attribution must be placed in the credits or acknowledgements section.
+
+#### Where you can use Flaticon contents:
+* Website, software, applications, mobile and multimedia
+* Printed and digital media (magazines, newspapers, books, cards, labels, CD, television, video, e-mail).
+* Advertisement and promotional items.
+* Presentation of products and public events.
+
+#### What you can do:
+* You have the non-exclusive, non-transferable, non-sublicensable right to use the licensed material an unlimited number of times in any and all media for the commercial or personal purposes listed above.
+* You may alter and create derivative works.
+* You can use Flaticon Contents during the rights period world widely.
+
+#### What you can not do:
+* Sublicense, sell or rent any contents (or a modified version of them).
+* Distribute Flaticon Contents unless it has been expressly authorized by Flaticon.
+* Include Flaticon Contents in an online or offline database or file.
+* Offering Flaticon Contents designs (or modified Flaticon Contents versions) for download.
+
+#### We attribute each icon set that we use on the website for the following creators:
+* The 3D Printing pack by [Freepik](https://www.flaticon.com/authors/freepik).
+* The Basic Application pack by [Freepik](https://www.flaticon.com/authors/freepik).
+* The Material Design pack by [Creative Commons 3.0 BY](https://www.flaticon.com/packs/material-design).
+* The Essential Compilation pack by [Smashicons](https://www.flaticon.com/authors/Smashicons).
+* The Font Awesome pack by [Dave Gandy](https://www.flaticon.com/authors/dave-gandy).
+* The Internet of Things pack by [Bqlqn](https://www.flaticon.com/authors/bqlqn).
+* The BigMug Line pack by [Catalin Fertu](https://www.flaticon.com/authors/catalin-fertu).
+* The Computer Hardware pack by [Vitaly Gorbachev](https://www.flaticon.com/authors/vitaly-gorbachev).
+
+
+## Copyright
+All trademarks and copyright-written content found on this website belong to their respective owners. The RPCS3 team is in no way affiliated with Sony or PlayStation.
+
+The "PlayStation logo", "PlayStation 3 logo", "PlayStation 4 logo", "PlayStation Portable logo", "PlayStation Vita logo", "PlayStation Move logo", "PlayStation Network logo", "PlayStation Store logo", "PlayStation Plus logo", "Sony logo", "Sony Computer Entertainment logo" and their aforementioned names are registered trademarks of Sony Computer Entertainment Inc. "Sony Entertainment Network" is a trademark of Sony Corporation. Library programs are copyright Sony Interactive Entertainment Inc.
